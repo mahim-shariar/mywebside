@@ -1,0 +1,44 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.color1{
+    color: rgb(250, 184, 3);
+}
+h1{
+    font-size: 50ox;
+}
+
+.s1{
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.s1 img{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.hire{
+    
+    background-image: linear-gradient(red,#fa4802de);
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 2px;
+    color: rgb(223, 231, 108);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    padding: 10px 40px;
+    font-weight: 700;
+}
+
+
+.b1{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.goku{
+    text-align: center;
+}
