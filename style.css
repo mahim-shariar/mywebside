@@ -1,3 +1,4 @@
+
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -9,17 +10,22 @@ h1{
     font-size: 50ox;
 }
 
-.s1{
+.side1{
     width: 50%;
-    margin-top: 50px;
-    margin-left: 50px;
+    margin-top: 0px;
+    padding-left: 40px ;
+    padding-top: 55px;
 }
-.s1 img{
-    width: 80%;
-    margin: 0 auto;
+.side1 img{
+    width: 100%;
+    
     
 }
-.hire{
+.button{
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.READ{
     
     background-image: linear-gradient(red,#fa4802de);
     border-radius: 10px;
@@ -32,13 +38,27 @@ h1{
     font-weight: 700;
 }
 
-
-.b1{
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
-    display: flex;
+.side1{
+    text-align: center;
 }
 
-.goku{
+.section{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+
+.black{
     text-align: center;
+}
+.section2{
+    display: flex;
+    margin-top: 200px;
+    
+}
+.vigita{
+    text-align: center;
+}
+.color2{
+    color: rgb(238, 196, 10);
 }
