@@ -23,15 +23,15 @@ h1{
 }
 .button{
     padding-top: 20px;
-    padding-left: 40px;
+    margin-top: 10px;
 }
 .READ{
     
-    background-image: linear-gradient(red,#fa4802de);
+    background-image: linear-gradient(#ff9966 ,#ff5e62 );
     border-radius: 10px;
     cursor: pointer;
     padding: 2px;
-    color: rgb(223, 231, 108);
+    color: rgb(253, 253, 253);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     padding: 10px 40px;
@@ -43,14 +43,17 @@ h1{
 }
 
 .section{
+    display: flex;
+
+}
+
+.section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 
+
 }
 
-.black{
-    text-align: center;
-}
 .section2{
     display: flex;
     margin-top: 200px;
@@ -58,7 +61,50 @@ h1{
 }
 .vigita{
     text-align: center;
+    margin-top: 50px;
+
 }
 .color2{
     color: rgb(238, 196, 10);
+}
+
+.image{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.buy{
+    background-image: linear-gradient(#cc2b5e,#753a88);
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 2px;
+    color: rgb(253, 253, 253);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    padding: 10px 40px;
+    font-weight: 700;
+}
+.section3{
+    display: flex;
+    margin-top: 200px;
+
+}
+
+.more{
+    background-image: linear-gradient(#ff9966 ,#ff5e62 );
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 2px;
+    color: rgb(253, 253, 253);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    padding: 10px 40px;
+    font-weight: 700;
+}
+
+
+.goku{
+    text-align: center;
+    margin-top: 50px;
+    
 }
